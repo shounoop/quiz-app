@@ -8,14 +8,12 @@ pipeline {
     stages {
         stage("install") {
             steps {
-                // sh 'npm install'
-                sh 'echo hello world 1'
+                sh 'npm install'
             }
         }
         stage("build") {
             steps {
-                // sh 'npm run build'
-                sh 'echo hello world 2'
+                sh 'npm run build'
             }
         }
     } 
